@@ -1,17 +1,13 @@
-# untitled
+# Aplikacja Kulinarna (Flutter)
 
-A new Flutter project.
+Projekt zrealizowany w ramach laboratoriów. Aplikacja umożliwia przeglądanie kategorii potraw, wyświetlanie listy dań dla wybranej kategorii. Aplikacja 
+umożliwa również prace w trybie offline.
 
-## Getting Started
+## Funkcjonalności
+- **Pobieranie danych:** Pobieranie kategorii oraz dań z zewnętrznego API.
+- **Cache offline:** Wykorzystanie bazy danych Hive do przechowywania danych, co pozwala na korzystanie z aplikacji przy braku połączenia.
+- **Obsługa błędów:** Mechanizm try-catch z automatycznym przełączaniem na dane z pamięci podręcznej w przypadku awarii sieci.
+- **Nawigacja:** Przejrzysta struktura między ekranami (kategorie -> lista dań).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Uruchomienie
+git clone https://github.com/AdamZarebski/meal_flutter_proj/ -> flutter pub get -> flutter run
